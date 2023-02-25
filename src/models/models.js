@@ -1,13 +1,15 @@
+
+require('dotenv').config()
+
+
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const url = process.env.MONGODB_URI
 
-const ur = "mongodb+srv://josh:qfLCH8MU6TNM8Ncz@cluster0.ij8ytsz.mongodb.net/MentaApp?retryWrites=true&w=majority"
-console.log('connecting to', ur)
 
 
-mongoose.connect(ur)
+mongoose.connect(url)
   .then(result => {
     console.log('connected to MongoDB')
   })

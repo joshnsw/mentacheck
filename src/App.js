@@ -36,7 +36,7 @@ ChartJS.register(
 
 
 
-
+const url = "http://localhost:3001"
 
 
 const Login = () => {
@@ -52,7 +52,7 @@ const Login = () => {
     event.preventDefault();
     // handle form submission logic here
 
-    fetch("http://localhost:3001/api/login", {
+    fetch(`${url}/api/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password })
@@ -254,7 +254,7 @@ const Dashboard = () => {
     const notes = data.notes
     const date = data.date
 
-    fetch(`http://localhost:3001/dashboard/${id}/dailymood`, {
+    fetch(`${url}/dashboard/${id}/dailymood`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({mood,
@@ -279,7 +279,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     // Update the document title using the browser API
-    fetch(`http://localhost:3001/dashboard/${id}`).then(res => res.json()).then(
+    fetch(`${url}/dashboard/${id}`).then(res => res.json()).then(
       (data) => {
         console.log(data)
         setuserData(data);
@@ -372,7 +372,7 @@ const SignUp = () => {
     //   password
     // };
 
-    fetch("http://localhost:3001/api/users", {
+    fetch(`${url}/api/users`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

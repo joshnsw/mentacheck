@@ -1,0 +1,290 @@
+
+.container-login-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Sets the height of the container to the full height of the viewport */
+
+
+}
+
+
+
+.container-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(240, 229, 229);
+  padding: 3em;
+  font-size: 1.5em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+
+}
+
+.container-login > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.container-login > form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-login > form input {
+  padding: 10px;
+  border: none;
+  width: 20em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+.container-login > form button[type="submit"],
+.container-login > form button[type="button"] {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin: 1em;
+  font-size: 1em;
+}
+
+.container-login > form button[type="submit"]:hover,
+.container-login > form button[type="button"]:hover {
+  background-color: #023e8a;
+}
+
+
+
+
+.container-signup-outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+
+
+.container-signup {
+
+  background: rgb(240, 229, 229);
+  padding: 2em;
+  font-size: 1em;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+  margin-bottom: 1em;
+
+}
+
+.container-signup form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-signup label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.container-signup input {
+  padding: 10px;
+  border: none;
+  width: 20em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.container-signup button[type="submit"] {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+
+  font-size: 1em;
+}
+
+.container-signup button[type="submit"]:hover {
+  background-color: #023e8a;
+}
+
+
+.container-dailylog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Sets the height of the container to the full height of the viewport */
+  font-size: 1.5em;
+}
+
+.container-dailylog form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container-dailylog label {
+  display: inline-block;
+
+
+}
+
+.container-dailylog input,
+.container-dailylog textarea {
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+
+
+}
+
+.container-dailylog input[type="checkbox"] {
+  margin-right: 10px;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.container-dailylog button[type="submit"] {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.container-dailylog button[type="submit"]:hover {
+  background-color: #023e8a;
+}
+
+
+
+.container-dashboard-first-column {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.container-dashboard-welcome {
+  text-align: center;
+}
+
+.container-dashboard-welcome h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.container-dashboard-welcome p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.container-dashboard-mood {
+  text-align: center;
+}
+
+.container-dashboard-mood p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.btn-dashboard {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 1em;
+  font-size: 1em;
+  width: 10em;
+}
+
+.btn-dashboard:hover {
+  background-color: #023e8a;
+}
+
+.btn-logout {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 1em;
+  font-size: 1em;
+  width: 10em;
+}
+
+.btn-logout:hover {
+  background-color: #023e8a;
+}
+
+
+
+
+
+.container-dashboard-logout {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+
+
+.no-side-margin {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+
+.container-dashboard-info{
+
+  background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #bcb6b6, #DAE2F8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.container-dashboard-contentfill{
+
+  background: #DAE2F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F0EFF0, #FAF8F9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F0EFF0, #FAF8F9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.container-header-fill{
+  background: linear-gradient(33deg, #6CACFF, #8DEBFF);
+}

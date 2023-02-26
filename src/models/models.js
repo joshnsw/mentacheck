@@ -5,11 +5,11 @@ require('dotenv').config()
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const url = process.env.MONGODB_URI
+const urlmongo = process.env.MONGODB_URI
 
 
 
-mongoose.connect(url)
+mongoose.connect(urlmongo)
   .then(result => {
     console.log('connected to MongoDB')
   })

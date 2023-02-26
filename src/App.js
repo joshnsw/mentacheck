@@ -34,7 +34,7 @@ ChartJS.register(
 
 
 
-url = "http://mentacheck.onrender.com"
+const url = "http://mentacheck.onrender.com"
 
 // const url = "http://localhost:3001"
 

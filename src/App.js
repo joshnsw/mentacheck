@@ -34,13 +34,13 @@ ChartJS.register(
 
 
 
-const url = "http://localhost:3001"
+const url = "https://mentacheck.onrender.com"
 
 // const url = "http://localhost:3001"
 
 
 
-// const main = "http://mentacheck.onrender.com"
+// const main = "https://mentacheck.onrender.com"
 
 const Login = () => {
   const [email, setEmail] = useState("");

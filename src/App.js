@@ -36,7 +36,7 @@ ChartJS.register(
 
 
 
-const url = "http://localhost:3001"
+const url = "https://mentacheck.onrender.com"
 
 
 const Login = () => {

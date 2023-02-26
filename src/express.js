@@ -20,6 +20,10 @@ const cors = require('cors')
 const { User, DailyMood } = require('./models/models')
 
 
+app.use(express.static('build'))
+
+
+
 
 const PORT = process.env.PORT || 3001
 

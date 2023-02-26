@@ -28,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 
 // Serve the index.html file for all routes
 
-// when i run this route, it does not get data for dashboard user.
+// when i run this route, it does not get data for dashboard
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });
@@ -218,3 +218,8 @@ app.post('/api/users', (req, res) => {
      console.log(req.body);
     })
 })
+
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});

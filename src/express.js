@@ -20,7 +20,14 @@ const cors = require('cors')
 const { User, DailyMood } = require('./models/models')
 
 
-app.use(express.static('build'))
+// Serve static assets from the build directory
+app.use(express.static(path.join(__dirname, 'build')));
+
+// Serve the index.html file for all routes
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 
 
 

@@ -469,7 +469,7 @@ function App() {
         <SignUp/>
         </>} />
 
-      <Route path="/dashboard/:id" element={<>
+      <Route path="/dashboard/user/:id" element={<>
         <Dashboard/>
         </>} />
 

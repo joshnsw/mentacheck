@@ -23,13 +23,15 @@ const { User, DailyMood } = require('./models/models')
 
 const path = require('path');
 
-// Serve static assets from the build directory
+//Serve static assets from the build directory
 app.use(express.static(path.join(__dirname, 'build')));
 
 // Serve the index.html file for all routes
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+
+// when i run this route, it does not get data for dashboard user.
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, 'build', 'index.html'));
+// });
 
 
 

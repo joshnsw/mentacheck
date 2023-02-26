@@ -34,7 +34,7 @@ ChartJS.register(
 
 
 
-const url = "https://mentacheck.onrender.com"
+const url = "http://localhost:3001"
 
 // const url = "http://localhost:3001"
 
@@ -67,7 +67,7 @@ const Login = () => {
         return response.json();
       })
       .then((data) => {
-        navigate(`/dashboard/${data.userId}`);
+        navigate(`/dashboard/user/${data.userId}`);
       })
       .catch((error) => {
         console.log(error.message);

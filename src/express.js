@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'build')));
 // Serve the index.html file for all routes
 
 // when i run this route, it does not get data for dashboard
+//routes order matter, i placed this route as the last one, and it seems not intercept other routes that get backend
 // app.get('*', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 // });

@@ -2,12 +2,20 @@
 
 
 <b>Description:</b>
-My personal website showing my profile and key projects
+Its an app that allows a users to track their mental app.
 
 
 ## Usage
 
+Sign up: 
+
+Enter form:
+
+
 ## Features
+
+Mood graph:
+
 
 ## Key challenges/lessons learnt
 
@@ -15,4 +23,7 @@ My personal website showing my profile and key projects
 ## Built With
 
 
+- [Bootstrap][React] (Frontend)
+- [Node] (Backend)
+-[MongoDB] (DB)
 

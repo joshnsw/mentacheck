@@ -8,6 +8,10 @@ The inspiration came from my own experience where I notice that every 4 weeks I 
 
 By entering their daily moods into a mentalcheck, users will be able to visualise their mood patterns and take preventive actions, such as seeing as a professional when mood is constantly low the past 30 days or schedule a short break on off-days.
 
+<ins>Home page</ins>
+![screenshot](https://github.com/joshnsw/joshportfolio/blob/master/assets/mentacheckhome.png)
+
+
 
 ## Usage
 
